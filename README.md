@@ -12,23 +12,23 @@
 
 All of this is done completely for free, using only open tools inside an Anaconda Python environment.
 
-##Prerequisites
+## Prerequisites
 
-###Python 3.10 (Anaconda recommended)
+### Python 3.10 (Anaconda recommended)
 
-###Microphone (internal or external)
+### Microphone (internal or external)
 
-###Internet connection (for Cohere & gTTS)
+### Internet connection (for Cohere & gTTS)
 
-##Setup Instructions 
-###1. Download the project folder "Chatbot"
+## Setup Instructions 
+### 1. Download the project folder "Chatbot"
 
-###2. Open Anaconda Prompt and create a new environment:
+### 2. Open Anaconda Prompt and create a new environment:
 conda create -n arabicbot python=3.10
 conda activate arabicbot
-###3. 3. Install all required packages:
+### 3. Install all required packages:
 pip install sounddevice scipy openai-whisper cohere gtts pygame arabic-reshaper python-bidi
-###4. [Important] Install FFmpeg:
+### 4. [Important] Install FFmpeg:
 Whisper needs ffmpeg to process audio.
 
 ##How to Run the Voice Assistant
@@ -47,23 +47,23 @@ Use duration=7 or more in record.py if needed
 
 Set fs=16000 for Whisper compatibility
 
-##Whisper Model Options
+## Whisper Model Options
 
 In stt.py 
 model = whisper.load_model("medium")  
 "medium" model gives better recognition but uses more RAM and takes longer than "base".
 
-##Project Summary
+## Project Summary
 
 This chatbot is:
 
-###Simple (only a few Python files)
+### Simple (only a few Python files)
 
-###Smart (thanks to Whisper & Cohere)
+### Smart (thanks to Whisper & Cohere)
 
-###Useful (Arabic speech understanding!)
+### Useful (Arabic speech understanding!)
 
-###Free (no paid services used)
+### Free (no paid services used)
 
 It’s ideal for beginners who want to explore real-time voice interfaces with AI in Arabic.
 
