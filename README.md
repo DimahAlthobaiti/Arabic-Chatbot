@@ -31,8 +31,8 @@ pip install sounddevice scipy openai-whisper cohere gtts pygame arabic-reshaper 
 ### 4. [Important] Install FFmpeg:
 Whisper needs ffmpeg to process audio.
 
-##How to Run the Voice Assistant
-Every time you want to run the assistant:
+## How to Run this Chatbot
+Every time you need to write these commands:
 conda activate arabicbot
 cd path\to\your\Chatbot  # go to the folder where your .py files are
 python main.py
