@@ -47,7 +47,7 @@ Use duration=7 or more in record.py if needed
 
 Set fs=16000 for Whisper compatibility
 
-## Whisper Model Options
+### Whisper Model Options
 
 In stt.py 
 model = whisper.load_model("medium")  
